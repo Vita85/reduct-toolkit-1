@@ -10,8 +10,8 @@ const counterSlice = createSlice({
     decrement: state => { state.value -= 1; },
     incrementBy: (state, action) => { state.value += action.payload; },
     decrementBy:  (state, action) => { state.value -= action.payload; },
-    decrementPrompt:  (state, action) => { state.value += action.payload; },
-    incrementPrompt:  (state, action) => { state.value -= action.payload; },
+    incrementPrompt:  (state, action) => { state.value += action.payload; },
+    decrementPrompt:  (state, action) => { state.value -= action.payload; },
   }
 });
 
